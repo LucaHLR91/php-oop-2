@@ -1,6 +1,5 @@
 <?php 
-    // require_once 'products.php';
-
+    require_once 'products.php';
     class Components extends Products{
         protected $component_name;
         protected $company;
@@ -38,6 +37,10 @@
         
     }
 
-    $pc_paolo= new Components('i7-11700k', 'Intel', 'Intel');
+    $pc_paolo = [
+        new Components('i7-11700k', 'Intel', 'CPU'),
+        new Components('RTX 3090Ti', 'Nvidia', 'GPU'),
+        new Components('Vengeance RGB 16GB', 'Corsair', 'RAM'),
+    ];
     var_dump($pc_paolo);
 ?>

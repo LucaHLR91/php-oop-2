@@ -1,4 +1,5 @@
 <?php 
+    require_once 'shop.php';
     class Products extends Shop {
         private $products;
         public $pc_type;

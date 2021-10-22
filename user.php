@@ -1,4 +1,5 @@
 <?php 
+    require_once 'shop.php';
     class User  extends Shop{
         protected $name;
         protected $surname;
