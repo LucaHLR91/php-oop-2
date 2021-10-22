@@ -1,5 +1,6 @@
 <?php 
     require_once 'products.php';
+    require_once 'components.php';
     require_once 'user.php';
     class Shop {
         private $shop_name;

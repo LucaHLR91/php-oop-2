@@ -1,6 +1,4 @@
 <?php 
-    
-
     class Products extends Shop {
         private $products;
         public $pc_type;
@@ -20,6 +18,6 @@
         }
     }
 
-    $product = new Products('PC', 'Desktop');
+    $product = new Products('PC Hardware', 'Desktop');
     var_dump($product); 
 ?>
