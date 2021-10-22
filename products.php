@@ -20,6 +20,6 @@
         }
     }
 
-    $product = new Products('PC Hardware', 'Desktop');
+    $product = new Products('PC', 'Desktop');
     var_dump($product); 
 ?>
