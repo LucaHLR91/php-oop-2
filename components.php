@@ -37,10 +37,17 @@
         
     }
 
-    $pc_paolo = [
+    $intel_cpus = [
         new Components('i7-11700k', 'Intel', 'CPU'),
-        new Components('RTX 3090Ti', 'Nvidia', 'GPU'),
-        new Components('Vengeance RGB 16GB', 'Corsair', 'RAM'),
+        new Components('i5-11600k', 'Intel', 'CPU'),
+        new Components('i3-10100k', 'Intel', 'CPU'),
     ];
-    var_dump($pc_paolo);
+
+    $amd_cpus = [
+        new Components('Ryzen-7 5700x', 'AMD', 'CPU'),
+        new Components('Ryzen-5 5600x', 'AMD', 'CPU'),
+        new Components('Ryzen-3 3300x', 'AMD', 'CPU'),
+    ];
+    var_dump($intel_cpus);
+    var_dump($amd_cpus);
 ?>

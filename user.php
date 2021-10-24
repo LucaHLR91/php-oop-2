@@ -48,6 +48,8 @@
 
     }
 
-    $paolo = new User('Paolo', 'Dossetto', 'paolo@gmail.com', '345-6789331');
-    var_dump($paolo);
+    $users = [
+        new User('Paolo', 'Dossetto', 'paolo@gmail.com', '345-6789331'),
+    ];
+        var_dump($users);
 ?>
