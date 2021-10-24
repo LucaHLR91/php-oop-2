@@ -1,6 +1,9 @@
 <?php 
     require_once 'shop.php';
-    class User  extends Shop{
+    require_once 'discount.php';
+    class User  extends Shop {
+        use Discount;
+
         protected $name;
         protected $surname;
         protected $email;
@@ -51,8 +54,6 @@
     $users = [
         new User('Paolo', 'Rossi', 'paolo@gmail.com', '345-6789331'),
         new User('Marco', 'Bianchi', 'marco@gmail.com', '338-6129213')
-
     ];
-    
     var_dump($users);
 ?>

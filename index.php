@@ -12,7 +12,9 @@ Provate a far interagire tra di loro gli oggetti: ad esempio, l'utente dello sho
 <?php 
 require_once 'shop.php';
 require_once 'products.php';
+require_once 'discount.php';
 require_once 'user.php';
+
 
 
 ?>
