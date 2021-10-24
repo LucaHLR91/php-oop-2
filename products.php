@@ -1,22 +1,22 @@
 <?php 
     require_once 'shop.php';
     class Products extends Shop{
-        protected $component_name;
+        protected $products_name;
         protected $company;
-        protected $component_type;
+        protected $products_type;
 
-        public function __construct($_component_name, $_company, $_component_type) {
-            $this->component_name = $_component_name;
+        public function __construct($_products_name, $_company, $_products_type) {
+            $this->products_name = $_products_name;
             $this->company = $_company;
-            $this->component_type = $_component_type;
+            $this->product_type = $_products_type;
         }
 
-        public function setName($_component_name) {
-            $this->component_name = $_component_name;
+        public function setName($_products_name) {
+            $this->products_name = $_products_name;
         }
 
         public function getName() {
-            return $this->component_name;
+            return $this->products_name;
         }
 
         public function setCompany($_company) {
@@ -27,12 +27,12 @@
             return $this->company;
         }
 
-        public function setComponentType($_component_type) {
-            $this->component_type = $_component_type;
+        public function setProductsType($_products_type) {
+            $this->products_type = $_products_type;
         }
 
-        public function getComponentType() {
-            return $this->component_type;
+        public function getProductsType() {
+            return $this->products_type;
         }
         
     }
