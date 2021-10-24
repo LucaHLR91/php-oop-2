@@ -6,7 +6,11 @@
         public function setUserType($_user_type) {
             $this->user_type = $_user_type;
         }
+
+        public function getUserType() {
+            return $this->user_type;
+        }
     };
 
-    
+   
 ?>

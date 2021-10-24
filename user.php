@@ -55,5 +55,11 @@
         new User('Paolo', 'Rossi', 'paolo@gmail.com', '345-6789331'),
         new User('Marco', 'Bianchi', 'marco@gmail.com', '338-6129213')
     ];
+
+    // $users[0]->setName('caro');
+    // echo $users[0]->getName();
+    
     var_dump($users);
+    // $users[0]->setUserType('premium');
+    // echo $users[0]->getUserType();
 ?>
