@@ -53,5 +53,6 @@
         new User('Marco', 'Bianchi', 'marco@gmail.com', '338-6129213')
 
     ];
-        var_dump($users);
+    
+    var_dump($users);
 ?>
