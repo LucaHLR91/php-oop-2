@@ -49,7 +49,9 @@
     }
 
     $users = [
-        new User('Paolo', 'Dossetto', 'paolo@gmail.com', '345-6789331'),
+        new User('Paolo', 'Rossi', 'paolo@gmail.com', '345-6789331'),
+        new User('Marco', 'Bianchi', 'marco@gmail.com', '338-6129213')
+
     ];
         var_dump($users);
 ?>
